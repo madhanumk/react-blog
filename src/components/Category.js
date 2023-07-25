@@ -31,7 +31,7 @@ function Category() {
                         {categories.map((dataObj, index) => {
                             return (
                                 <div>
-                                    <h2><Link to={'/category/'+dataObj.name} className='capitalize'>{dataObj.name} ({dataObj.blog_count})</Link></h2>  <hr></hr>
+                                    <h2><Link to={'/react-blog/category/'+dataObj.name} className='capitalize'>{dataObj.name} ({dataObj.blog_count})</Link></h2>  <hr></hr>
                                 </div>
                                 
                                 

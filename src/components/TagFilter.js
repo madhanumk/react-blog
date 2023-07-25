@@ -45,10 +45,10 @@ function TagFilter() {
                                     alt={dataObj.title}/>
                                 </div>
                                 <div className="col-8">
-                                  <h2 className="h5"><Link to={'/blog/'+dataObj.slug}>{dataObj.title}</Link></h2>
+                                  <h2 className="h5"><Link to={'/react-blog/blog/'+dataObj.slug}>{dataObj.title}</Link></h2>
         
                                     <div className="post-meta">
-                                      <span className="d-block"><a href="#">{dataObj.author}</a> in <a href="/category/whatsapp">{dataObj.category}</a></span>
+                                      <span className="d-block"><a href="#">{dataObj.author}</a> in <Link to={'/react-blog/category/'+dataObj.category}>{dataObj.category}</Link></span>
                                       <span className="date-read">{dataObj.post_date} <span className="mx-1">•</span> {dataObj.read_time} min read
                                       </span>
                                     </div>

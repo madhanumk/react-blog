@@ -80,7 +80,7 @@ function App() {
                 <a href="https://twitter.com/techvlogyt" className="d-inline-block p-3"><span className="icon-twitter"></span></a>
                 <a href="http://instagram.com/techvlogyt" className="d-inline-block p-3"><span className="icon-instagram"></span></a>
             </div>
-            <form action="/search/" className="search-form d-inline-block" method="GET">
+            <form action="/react-blog/search/" className="search-form d-inline-block" method="GET">
 
               <div className="d-flex">
                 <input type="text" className="form-control"  name="title" placeholder="Search..."/>
@@ -109,13 +109,13 @@ function App() {
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                 <li className="active">
                 
-                  <Link to={'/'} className="nav-link text-left">Home</Link>
+                  <Link to={'/react-blog/'} className="nav-link text-left">Home</Link>
                 </li>
                 <li>                 
-                  <Link to={'/category/'} className="nav-link text-left">Categories</Link>
+                  <Link to={'/react-blog/category/'} className="nav-link text-left">Categories</Link>
                 </li>
                 <li>
-                  <Link to={'/tag/'} className="nav-link text-left">Tag</Link>
+                  <Link to={'/react-blog/tag/'} className="nav-link text-left">Tag</Link>
                 </li>
                
               </ul>                                                                                                                                                                                                                                                                                         

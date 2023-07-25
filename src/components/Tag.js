@@ -35,7 +35,7 @@ function Tag() {
                         {tags.map((dataObj, index) => {
                             return (
                                 <div>
-                                    <h2><Link to={'/tag/'+dataObj.name} className='capitalize'>{dataObj.name} ({dataObj.blog_count})</Link></h2>  <hr></hr>
+                                    <h2><Link to={'/react-blog/tag/'+dataObj.name} className='capitalize'>{dataObj.name} ({dataObj.blog_count})</Link></h2>  <hr></hr>
                                 </div>
                                 
                                 
