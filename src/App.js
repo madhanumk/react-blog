@@ -134,13 +134,13 @@ function App() {
       <div className="container">
              
           <Routes>       
-            <Route path="/" element={<Home />} exact />
-            <Route path="/blog/:blogSlug" element={<Blog />}  />       
-            <Route path="category/" element={<Category />}  />  
-            <Route path="/category/:categorySlug" element={<CategoryFilter />}  /> 
-            <Route path="tag/" element={<Tag />}  /> 
-            <Route path="/tag/:tagSlug" element={<TagFilter />}  />
-            <Route path="/search/" element={<Search />}  />
+            <Route path="/react-blog/" element={<Home />} exact />
+            <Route path="/react-blog/blog/:blogSlug" element={<Blog />}  />       
+            <Route path="/react-blog/category/" element={<Category />}  />  
+            <Route path="/react-blog/category/:categorySlug" element={<CategoryFilter />}  /> 
+            <Route path="/react-blog/tag/" element={<Tag />}  /> 
+            <Route path="/react-blog/tag/:tagSlug" element={<TagFilter />}  />
+            <Route path="/react-blog/search/" element={<Search />}  />
             
           </Routes>
       
