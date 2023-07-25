@@ -87,7 +87,7 @@ function Blog() {
                                         <div class="trend-entry d-flex">
                                             <div class="number align-self-start">{index+1}</div>
                                             <div class="trend-contents">
-                                                <h2><Link to={'/blog/'+dataObj.slug}  slug={dataObj.slug} onClick={HandleRelatedBlog}>{dataObj.title}</Link></h2>
+                                                <h2><Link to={'/react-blog/blog/'+dataObj.slug}  slug={dataObj.slug} onClick={HandleRelatedBlog}>{dataObj.title}</Link></h2>
                                                     <div class="post-meta">                    
                                                         <span class="date-read">{dataObj.post_date} minutes <span class="mx-1">&bullet;</span> {dataObj.read_time} min read <span class="icon-star2"></span></span>
                                                     </div>
