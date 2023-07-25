@@ -224,7 +224,7 @@ function App() {
               <div className="copyright">
                 <p>
                   
-                developed by <a href="https://www.linkedin.com/in/madhanumk/" target='_blank'>Madhan Umk</a>
+                Developed by <a href="https://www.linkedin.com/in/madhanumk/" target='_blank'><u>Madhan Umk</u></a>
 
                 </p>
               </div>
