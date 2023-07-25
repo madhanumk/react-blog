@@ -45,7 +45,7 @@ function CategoryFilter() {
                                     alt={dataObj.title}/>
                                 </div>
                                 <div className="col-8">
-                                  <h2 className="h5"><Link to={'/blog/'+dataObj.slug}>{dataObj.title}</Link></h2>
+                                  <h2 className="h5"><Link to={'/react-blog/blog/'+dataObj.slug}>{dataObj.title}</Link></h2>
         
                                     <div className="post-meta">
                                       <span className="d-block"><a href="#">{dataObj.author}</a> in <a href="/category/whatsapp">{dataObj.category}</a></span>
