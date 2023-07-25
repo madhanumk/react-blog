@@ -224,10 +224,7 @@ function App() {
               <div className="copyright">
                 <p>
                   
-                  Copyright &copy;
-                  <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-                  with <i className="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                    target="_blank">Colorlib</a>
+                developed by <a href="https://www.linkedin.com/in/madhanumk/" target='_blank'>Madhan Umk</a>
 
                 </p>
               </div>
